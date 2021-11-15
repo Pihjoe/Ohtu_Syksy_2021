@@ -1,1 +1,3 @@
-# Ohtu_Syksy_2021
+# Syksy 2021
+
+Laskareissa käytettävä Python-koodi.
