@@ -9,7 +9,7 @@ class Ostoskori:
     def tavaroita_korissa(self):
         tuotteet = 0
         for ostos in self.kori:
-            tuotteet += 1
+            tuotteet += ostos.lukumaara()
         return tuotteet
 
         # kertoo korissa olevien tavaroiden lukumäärän
@@ -24,7 +24,11 @@ class Ostoskori:
         # kertoo korissa olevien ostosten yhteenlasketun hinnan
 
     def lisaa_tuote(self, lisattava: Tuote):
-        self.kori.append(lisattava)
+        for ostos in self.kori:
+            if ostos.tuote == lisattava:
+                ostos.muuta_lukumaaraa(1)
+                return
+        self.kori.append(Ostos(lisattava))
         # lisää tuotteen
         
 
