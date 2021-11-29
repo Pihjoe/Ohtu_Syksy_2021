@@ -9,7 +9,7 @@ class Ostoskori:
     def tavaroita_korissa(self):
         tuotteet = 0
         for ostos in self.kori:
-            tuotteet += ostos.lukumaara()
+            tuotteet += 1
         return tuotteet
 
         # kertoo korissa olevien tavaroiden lukumäärän
