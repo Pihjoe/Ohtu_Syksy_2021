@@ -1,0 +1,6 @@
+## Retorospektiivi
+
+Retrospektiivillä tarkoitetaan jokaisen sprintin lopussa olevaa kokousta, jossa keskustellaan kuluneesta sprintistä prohjektin tiimin kesken, joka pidetään yleensä sprint review:n jälkeen. Kokouksessa tavoitteena on kehittää kehitystiimin toimintaa ja parantaa sen tehokkuutta seuraavaa sprinttiä ajatellen, keskustelemaalla esim. mitä olisi voitu tehdä toisin. Retrospektiivi on hyvä tapa parantaa tiimin työskentelyö, niin henkilötasolla kuin tiiminä, ja näin muuttaa projektin etenemistä tehokkaammaksi tulevissa sprinteissä. Retrospektiivi olisi hyvä pitää lyhyenä, esim. kahden viikon sprintissä retrospektiivin kesto tulisi olla enintään noin tunti. Retrospektiivi ja sprint review eroaa siten, että sprint review:ssa katselmoidaan enemmän valmistettavaa tuotetta, toisin kuin retrospektiivissä, jossa aiheena on itse tiimi ja heidän työskentely. 
+Erona on myös se, että review:n osallistuu tiimin lisäksi tuoteomistaja ja muut mahdolliset tärkeät edustajat. 
+
+Tärkeänä puolena retrospektiivissä on se, että se olisi hyvä pitää vapaana, vaikka netissä on paljon valmiita pohjia retroa varten. Näin voidaan saada siitä tiimiä virkistävä tapaaminen, mutta vaarana on, että kaikkea ei tule käsitellyksi ja retron kesto saattaa venyä.
