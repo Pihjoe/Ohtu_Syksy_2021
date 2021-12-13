@@ -1,6 +1,6 @@
 from statistics import Statistics
 from player_reader import PlayerReader
-from matchers import And, HasAtLeast, PlaysIn, All, Not, HasFewerThan
+from matchers import And, HasAtLeast, PlaysIn, All, Not, HasFewerThan, Or
 
 def main():
     url = "https://nhlstatisticsforohtu.herokuapp.com/players.txt"
@@ -21,6 +21,11 @@ def main():
     matcher = And(
         HasFewerThan(1, "goals"),
         PlaysIn("NYR")
+    )
+
+    matcher = Or(
+        HasAtLeast(30, "goals"),
+        HasAtLeast(50, "assists")
     )
 
 
