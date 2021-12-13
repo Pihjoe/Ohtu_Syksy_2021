@@ -58,7 +58,7 @@ def main():
     )
 
     for player in stats.matches(matcher):
-        print(player)
+        print(player)    
 
 
 if __name__ == "__main__":
