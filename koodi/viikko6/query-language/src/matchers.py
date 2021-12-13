@@ -38,12 +38,12 @@ class Not:
         return not self.negaatio.matches(player)
 
 class HasFewerThan:
-    def __init__(self, value, atribuutti):
+    def __init__(self, value, attr):
         self.value = value
-        self.atribuutti = atribuutti
+        self.attr = attr
 
     def matches(self, player):
-        player_value = getattr(player, self.atribuutti)
+        player_value = getattr(player, self.attr)
         return player_value < self.value
 
 class Or:
