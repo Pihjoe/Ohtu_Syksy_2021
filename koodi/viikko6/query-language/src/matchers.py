@@ -29,3 +29,11 @@ class HasAtLeast:
 class All:
     def matches(self, player):
         return True
+
+class Not:
+    def __init__(self, negaatio):
+        self.negaatio = negaatio
+
+    def matches(self, player):
+        return not self.negaatio.matches(player)
+
