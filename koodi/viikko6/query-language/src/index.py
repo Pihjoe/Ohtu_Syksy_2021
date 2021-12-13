@@ -38,8 +38,8 @@ def main():
         )
     )
 
-    #for player in stats.matches(matcher):
-        #print(player)
+    for player in stats.matches(matcher):
+        print(player)
 
 
 def main():
@@ -49,13 +49,13 @@ def main():
 
     query = QueryBuilder()
 
-    #matcher = (
-      #query  
-        #.playsIn("NYR")  
-        #.hasAtLeast(5, "goals")  
-        #.hasFewerThan(10, "goals")  
-        #.build()
-    #)
+    matcher = (
+      query  
+        .playsIn("NYR")  
+        .hasAtLeast(5, "goals")  
+        .hasFewerThan(10, "goals")  
+        .build()
+    )
 
     matcher = (
         query
